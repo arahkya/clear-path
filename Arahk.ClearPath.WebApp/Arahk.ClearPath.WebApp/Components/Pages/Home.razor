@@ -1,0 +1,31 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<div style="height: 100%; border-top: 1px solid #dfdbdd; background-color: #dfdbdd;">
+    <table style="background-color: white; width: 100%; border-spacing: 0; border-radius: 10px;">
+        <thead>
+        <tr style="background-color: #dfdbdd !important;">
+            <th class="cell header" style="border-top-left-radius: 10px">Id</th>
+            <th class="cell header">Title</th>
+            <th class="cell header">Created On</th>
+            <th class="cell header">Created By</th>
+            <th class="cell header">Last Modify On</th>
+            <th class="cell header" style="border-top-right-radius: 10px;">Last Modify By</th>
+        </tr>
+        </thead>
+        <tbody>
+        @for (var i = 1; i <= 200; i++)
+        {
+            <tr>
+                <td class="cell">@i</td>
+                <td class="cell">Project @i</td>
+                <td class="cell">@DateTime.Now.AddDays(-i).ToString("dd/MM/yyyy")</td>
+                <td class="cell">John Doe</td>
+                <td class="cell">@DateTime.Now.AddDays(-i).ToString("dd/MM/yyyy")</td>
+                <td class="cell">Jane Smith</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
