@@ -1,0 +1,18 @@
+<NavLink href="/project/new" style="text-decoration: none; color: black;">
+    <i style="color: #4384df" class="@Icon"></i>
+    @if (!string.IsNullOrWhiteSpace(Caption))
+    {
+        <span style="margin-left: .5rem;">
+            @Caption
+        </span>
+    }
+</NavLink>
+
+@code {
+    [Parameter]
+    public string Icon { get; set; } = string.Empty;
+
+    [Parameter] public string Caption { get; set; } = string.Empty;
+    
+    [Parameter] public string Href { get; set; } = string.Empty;
+}

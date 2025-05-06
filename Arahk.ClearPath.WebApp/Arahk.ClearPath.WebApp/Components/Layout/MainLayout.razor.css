@@ -19,21 +19,10 @@
     color: white;
 }
 
-#topbar-appname {
+#topbar-app-name {
     display:flex;
     align-items: center;
     padding-left: 1rem;
-}
-
-#display-container {
-    height: fit-content;
-    grid-area: display;
-    background-color: white;
-    position: absolute;
-    left:30px;
-    right:30px;
-    bottom:0;
-    top: 140px;
 }
 
 #blazor-error-ui {

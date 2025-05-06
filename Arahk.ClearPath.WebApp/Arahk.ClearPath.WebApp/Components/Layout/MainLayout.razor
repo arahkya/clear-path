@@ -2,7 +2,7 @@
 
 <div id="main-container">
     <div id="topbar-container">
-        <div id="topbar-appname">
+        <div id="topbar-app-name">
             <span>Clear-Path</span>
             <input style="border-radius: 2px; border: 1px solid white; font-size: .8rem; margin: 0 .6rem 0 2rem; flex: .7" type="text" placeholder="Search..." />
             <i style="cursor: pointer" class="fa-solid fa-magnifying-glass"></i>
@@ -16,31 +16,11 @@
             <i style="padding:0 1rem; cursor: pointer;" class="fa-solid fa-door-open"></i>
         </div>
     </div>
-    <div style="font-size: 1rem; flex:1; position:fixed; z-index: 600; width: 100vw; background-color: white; top:35px; padding: 1rem">
-        <span>Projects</span>
-    </div>
-    <div style="flex:1; filter: drop-shadow(5px 5px 5px #D3D4DB); display: flex; justify-content: space-between; position: fixed; z-index:500; background-color: white; top:86px; left:0; right:0; padding: 0 1rem; height: 35px; align-items: center;">
-        <div>
-            <NavLink href="/project/new" style="text-decoration: none; color: black;">
-                <i style="color: #4384df" class="fa-solid fa-plus"></i>
-                New
-            </NavLink>
-            <button
-                style="background-color: transparent; cursor: pointer; border: none; margin-left: 1.5rem; text-decoration: none; color: black;">
-                <i style="color: #4384df" class="fa-solid fa-list-check"></i>
-                Columns Options
-            </button>
-        </div>
-        <div>
-            <i style="color: #4384df; cursor: pointer; margin-right: 1rem;" class="fa-solid fa-filter"></i>
-            <i style="color: #4384df; cursor: pointer;" class="fa-solid fa-sliders"></i>
-        </div>
-    </div>
     
-    <div id="display-container">
-        @Body
-    </div>
+    @Body
+    
 </div>
+
 @code {
   
 }

@@ -11,7 +11,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55f7fd60-b20a-44b2-aca7-ed27b04e580b" name="Changes" comment="" />
+    <list default="true" id="55f7fd60-b20a-44b2-aca7-ed27b04e580b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActionButtonItem.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActionButtonItem.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActionLinkItem.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActionLinkItem.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActions.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActions.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageDisplay.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageDisplay.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageHeader.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageHeader.razor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arahk.ClearPath/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arahk.ClearPath/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Layout/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Layout/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Layout/MainLayout.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Layout/MainLayout.razor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Home.razor" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +41,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Layout/MainLayout.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -123,16 +139,40 @@
       <updated>1746365137023</updated>
       <workItem from="1746365138158" duration="3239000" />
       <workItem from="1746368475178" duration="13819000" />
-      <workItem from="1746439718381" duration="7624000" />
+      <workItem from="1746439718381" duration="7714000" />
+      <workItem from="1746539252554" duration="2675000" />
     </task>
+    <task id="LOCAL-00001" summary="Styling Project List Page.">
+      <option name="closed" value="true" />
+      <created>1746457098607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746457098607</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Styling Project List Page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling Project List Page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

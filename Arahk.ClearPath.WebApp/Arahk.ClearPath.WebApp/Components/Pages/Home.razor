@@ -1,8 +1,20 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Projects</PageTitle>
+<PageHeader Title="Projects" />
+<PageActions>
+    <LeftContent>
+        <PageActionLinkItem Caption="New" Icon="fa-solid fa-plus" Href="/project/new"></PageActionLinkItem>
+    </LeftContent>
+    <RightContent>
+        <PageActionButtonItem Icon="fa-solid fa-filter" Caption="Filter"></PageActionButtonItem>
+        <PageActionButtonItem Icon="fa-solid fa-sliders" Caption="Setup"></PageActionButtonItem>
+        <PageActionButtonItem Icon="fa-solid fa-list-check" Caption="Columns Options"></PageActionButtonItem>
+    </RightContent>
+</PageActions>
 
-<div style="height: 100%; border-top: 1px solid #dfdbdd; background-color: #dfdbdd;">
+<PageDisplay>
+    <div style="height: 100%; border-top: 1px solid #dfdbdd; background-color: #dfdbdd;">
     <table style="background-color: white; width: 100%; border-spacing: 0; border-radius: 10px;">
         <thead>
         <tr style="background-color: #dfdbdd !important;">
@@ -29,3 +41,4 @@
         </tbody>
     </table>
 </div>
+</PageDisplay>

@@ -1,0 +1,15 @@
+#page-actions {
+    flex: 1;
+    filter: drop-shadow(5px 5px 5px #D3D4DB);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    top: 86px;
+    left: 0;
+    right: 0;
+    padding: 0 1rem;
+    height: 35px;
+    align-items: center;
+}

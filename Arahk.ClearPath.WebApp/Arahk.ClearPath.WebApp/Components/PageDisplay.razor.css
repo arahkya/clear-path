@@ -1,0 +1,10 @@
+#page-display {
+    height: fit-content;
+    grid-area: display;
+    background-color: white;
+    position: absolute;
+    left:30px;
+    right:30px;
+    bottom:0;
+    top: 140px;
+}
