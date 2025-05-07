@@ -1,0 +1,44 @@
+@page "/project/new"
+@using Arahk.ClearPath.WebApp.Models.Project
+@inject NavigationManager NavMgr
+@rendermode InteractiveServer
+
+<PageTitle>Projects</PageTitle>
+<PageHeader Title="New Project"/>
+<PageActions>
+    <LeftContent>
+        <PageActionButtonItem Icon="fa-solid fa-floppy-disk" Caption="Save" OnClick="SaveButtonClicked"></PageActionButtonItem>
+        <PageActionLinkItem Icon="fa-solid fa-arrow-left" Caption="Cancel" Href="/"></PageActionLinkItem>
+    </LeftContent>
+</PageActions>
+
+<PageDisplay>
+    <div style="background-color: white; padding: 1rem 2rem 3rem 2rem; width: 500px;">
+        <div id="new-project-form" style="display: grid; grid-template-columns: auto 1fr; grid-template-rows: repeat(4, 1fr); gap: 2rem; align-items: center;">
+
+            <label>Name</label>
+            <input type="text" @bind="_model.Name" />
+            
+            <label>Start Date</label>
+            <input type="date" @bind="_model.StartDate"/>
+
+            <label>End Date</label>
+            <input type="date" @bind="_model.EndDate"/>
+
+            <label style="align-self: start">Description</label>
+            <input style="height: 3rem" @bind="_model.Description" />
+            
+        </div>
+    </div>
+</PageDisplay>
+
+@code {
+
+    private NewProjectModel _model = new();
+    
+    private void SaveButtonClicked(MouseEventArgs e)
+    {
+        NavMgr.NavigateTo("/");
+    }
+    
+}

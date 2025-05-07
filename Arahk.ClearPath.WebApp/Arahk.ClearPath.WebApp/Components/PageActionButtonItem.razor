@@ -1,4 +1,4 @@
-<button style="font-size: .9rem; background-color: transparent; cursor: pointer; border: none; text-decoration: none; color: black;">
+<button style="font-size: .9rem; background-color: transparent; cursor: pointer; border: none; text-decoration: none; color: black;" @onclick="OnClick">
     <i style="font-size: .9rem; color: #4384df; cursor: pointer;" class="@Icon"></i>
     @if (!string.IsNullOrWhiteSpace(Caption))
     {
@@ -13,4 +13,7 @@
     public string Icon { get; set; } = string.Empty;
 
     [Parameter] public string Caption { get; set; } = string.Empty;
+    
+    [Parameter]
+    public EventCallback<MouseEventArgs> OnClick { get; set; }
 }
