@@ -12,28 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f7fd60-b20a-44b2-aca7-ed27b04e580b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Project/NewProject.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Models/Project/NewProjectModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/DateEntry.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/MultiLineTextEntry.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/TextEntry.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arahk.ClearPath/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arahk.ClearPath/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/App.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActionButtonItem.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActionButtonItem.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActionLinkItem.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActionLinkItem.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Project/NewProject.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Project/NewProject.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/_Imports.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/brands.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/brands.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/conflict-detection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/conflict-detection.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/fontawesome.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/fontawesome.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/regular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/regular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/solid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/solid.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/v4-shims.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/js/v4-shims.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +32,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Layout/MainLayout.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/arahkyambubpah/Projects/cs/Arahk/Arahk.ClearPath/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/_Imports.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -149,7 +134,9 @@
       <workItem from="1746368475178" duration="13819000" />
       <workItem from="1746439718381" duration="7714000" />
       <workItem from="1746539252554" duration="2770000" />
-      <workItem from="1746624697620" duration="3323000" />
+      <workItem from="1746624697620" duration="3391000" />
+      <workItem from="1746796211326" duration="144000" />
+      <workItem from="1746796394795" duration="1710000" />
     </task>
     <task id="LOCAL-00001" summary="Styling Project List Page.">
       <option name="closed" value="true" />
@@ -167,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746542020922</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add New Project Page">
+      <option name="closed" value="true" />
+      <created>1746628060298</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746628060298</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +185,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Styling Project List Page." />
     <MESSAGE value="Add Custom Page Components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Custom Page Components" />
+    <MESSAGE value="Add New Project Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add New Project Page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -207,6 +203,11 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Project/NewProject.razor</url>
+          <line>39</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -1,0 +1,21 @@
+<input type="date" @bind="Value" />
+
+@code {
+    private DateTime _value = DateTime.Now;
+    
+    [Parameter] public EventCallback<DateTime> ValueChanged { get; set; }
+
+    [Parameter]
+    public DateTime Value
+    {
+        get => _value;
+        set
+        {
+            if (_value == value) return;
+            
+            _value = value;
+                
+            ValueChanged.InvokeAsync(value);
+        }
+    }
+}

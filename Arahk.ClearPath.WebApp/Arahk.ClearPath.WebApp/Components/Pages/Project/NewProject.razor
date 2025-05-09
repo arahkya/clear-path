@@ -17,16 +17,16 @@
         <div id="new-project-form" style="display: grid; grid-template-columns: auto 1fr; grid-template-rows: repeat(4, 1fr); gap: 2rem; align-items: center;">
 
             <label>Name</label>
-            <input type="text" @bind="_model.Name" />
+            <TextEntry @bind-Value="_model.Name"></TextEntry>
             
             <label>Start Date</label>
-            <input type="date" @bind="_model.StartDate"/>
+            <DateEntry @bind-Value="_model.StartDate"></DateEntry>
 
             <label>End Date</label>
-            <input type="date" @bind="_model.EndDate"/>
+            <DateEntry @bind-Value="_model.EndDate"></DateEntry>
 
             <label style="align-self: start">Description</label>
-            <input style="height: 3rem" @bind="_model.Description" />
+            <MultiLineTextEntry @bind-Value="_model.Description" />
             
         </div>
     </div>
