@@ -1,8 +1,14 @@
 <div id="page-display">
-    @ChildContent
+    <div style="height: 100%; flex: @WidthDecimal; padding:0 1rem; border-top: 1px solid #dfdbdd;">
+        @ChildContent
+    </div>
 </div>
 
 @code {
+    private decimal WidthDecimal => Convert.ToDecimal((int)Width / 100f);
+    
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+
     [Parameter]
-    public RenderFragment? ChildContent { get; set; }
+    public PageDisplayWidths Width { get; set; }
 }

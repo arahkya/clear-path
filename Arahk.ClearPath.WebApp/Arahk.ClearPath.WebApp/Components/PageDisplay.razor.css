@@ -1,10 +1,13 @@
 #page-display {
     height: fit-content;
+    width: 100vw;
     grid-area: display;
-    background-color: white;
+    background-color: transparent;
     position: absolute;
-    left:30px;
-    right:30px;
+    left:0;
+    right:0;
     bottom:0;
     top: 140px;
+    display: flex;
+    justify-content: center;
 }

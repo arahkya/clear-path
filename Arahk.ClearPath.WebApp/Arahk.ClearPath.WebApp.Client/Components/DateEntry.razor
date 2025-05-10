@@ -1,8 +1,20 @@
-<input type="date" @bind="Value" />
+<div style="display:flex; align-items: center; gap: 1rem;">
+    <label style="flex:.2; text-align: end;">@Label</label>
+    <div style="flex: .7;">
+        <input type="date" @bind="Value" @bind:after="OnDateChanged" style="border: 1px solid #e1e2e9;padding: .5rem 0 .5rem .5rem; border-radius: 5px; width: 100%;" />
+    </div>
+</div>
 
 @code {
-    private DateTime _value = DateTime.Now;
+    [Parameter] public string Label { get; set; } = string.Empty;
     
+    private DateTime _value;
+
+    protected override void OnInitialized()
+    {
+        Value = DateTime.Now;
+    }
+
     [Parameter] public EventCallback<DateTime> ValueChanged { get; set; }
 
     [Parameter]
@@ -11,11 +23,14 @@
         get => _value;
         set
         {
-            if (_value == value) return;
-            
+            if (_value == value || value.Year < 1000) return;
             _value = value;
-                
             ValueChanged.InvokeAsync(value);
         }
+    }
+
+    private async Task OnDateChanged()
+    {
+        await ValueChanged.InvokeAsync(_value);
     }
 }

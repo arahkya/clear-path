@@ -12,12 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f7fd60-b20a-44b2-aca7-ed27b04e580b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/DateEntry.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/MultiLineTextEntry.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/TextEntry.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageDisplayWidths.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arahk.ClearPath/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arahk.ClearPath/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageDisplay.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageDisplay.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Home.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Project/NewProject.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Project/NewProject.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/_Imports.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +30,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9368f8f71026a5299038b6f3fbc45e7dbde9278c7df8e9282ec5add941d7321/IPEndPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/arahkyambubpah/Projects/cs/Arahk/Arahk.ClearPath/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/DateEntry.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/arahkyambubpah/Projects/cs/Arahk/Arahk.ClearPath/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/DateEntry.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Layout/MainLayout.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/arahkyambubpah/Projects/cs/Arahk/Arahk.ClearPath/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/_Imports.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -57,6 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -136,7 +138,8 @@
       <workItem from="1746539252554" duration="2770000" />
       <workItem from="1746624697620" duration="3391000" />
       <workItem from="1746796211326" duration="144000" />
-      <workItem from="1746796394795" duration="1710000" />
+      <workItem from="1746796394795" duration="1769000" />
+      <workItem from="1746851543021" duration="6974000" />
     </task>
     <task id="LOCAL-00001" summary="Styling Project List Page.">
       <option name="closed" value="true" />
@@ -162,7 +165,31 @@
       <option name="project" value="LOCAL" />
       <updated>1746628060298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create Form Entry Components">
+      <option name="closed" value="true" />
+      <created>1746798159096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746798159096</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Improve Visualize for Form Component and Page Display">
+      <option name="closed" value="true" />
+      <created>1746856238171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746856238171</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Improve Visualize for Form Component and Page Display">
+      <option name="closed" value="true" />
+      <created>1746856250922</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746856250922</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +213,9 @@
     <MESSAGE value="Styling Project List Page." />
     <MESSAGE value="Add Custom Page Components" />
     <MESSAGE value="Add New Project Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add New Project Page" />
+    <MESSAGE value="Create Form Entry Components" />
+    <MESSAGE value="Improve Visualize for Form Component and Page Display" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve Visualize for Form Component and Page Display" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -203,11 +232,6 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Project/NewProject.razor</url>
-          <line>39</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
