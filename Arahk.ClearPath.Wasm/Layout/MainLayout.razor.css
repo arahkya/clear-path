@@ -41,8 +41,9 @@
     color: dimgrey;
 }
 
-::deep #page-nav-items div:has(a.active) {
+::deep #page-nav-items a.active div {
     background-color: black !important;
+    cursor: default;
 }
 
 #page-content {

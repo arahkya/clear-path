@@ -14,38 +14,43 @@
     </section>
     <nav id="page-nav">
         <div id="page-nav-items">
-            <div>
-                <NavLink href="/home" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+
+            <NavLink href="/" style="text-decoration: none; color: inherit;" match="NavLinkMatch.All">
+                <div>
                     <TextLabel Size="TextLabelSizes.Small">
                         <LeftIcon><i class="fa-solid fa-house"></i></LeftIcon>
                         <Text>Home</Text>
                     </TextLabel>
-                </NavLink>
-            </div>
-            <div>
-                <NavLink href="/project" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+                </div>
+            </NavLink>
+
+            <NavLink href="/Project" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+                <div>
                     <TextLabel Size="TextLabelSizes.Small">
                         <LeftIcon><i class="fa-solid fa-folder-open"></i></LeftIcon>
                         <Text>Project</Text>
                     </TextLabel>
-                </NavLink>
-            </div>
-            <div>
-                <NavLink href="/task" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+                </div>
+            </NavLink>
+
+
+            <NavLink href="/task" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+                <div>
                     <TextLabel Size="TextLabelSizes.Small">
                         <LeftIcon><i class="fa-solid fa-list-ol"></i></LeftIcon>
                         <Text>Tasks</Text>
                     </TextLabel>
-                </NavLink>
-            </div>
-            <div>
-                <NavLink href="/setting" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+                </div>
+            </NavLink>
+
+            <NavLink href="/setting" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+                <div>
                     <TextLabel Size="TextLabelSizes.Small">
                         <LeftIcon><i class="fa-solid fa-gears"></i></LeftIcon>
                         <Text>Setting</Text>
                     </TextLabel>
-                </NavLink>
-            </div>
+                </div>
+            </NavLink>
         </div>
     </nav>
     <main id="page-content">

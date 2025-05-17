@@ -35,7 +35,7 @@
     color: black;
 }
 
-::deep #page-display-header-content nav a.active div {
+::deep #page-display-header-content nav div:has(a.active) {
     color: black !important;
     background-color: lightgrey;
 }
