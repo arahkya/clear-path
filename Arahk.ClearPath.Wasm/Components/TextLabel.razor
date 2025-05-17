@@ -1,0 +1,69 @@
+@using System.Drawing
+
+<div style="display: flex; align-items: center;">
+    @if (LeftIcon != null)
+    {
+        <div style="margin-right: 0.5rem;">
+            @LeftIcon
+        </div>
+    }
+    <span style="color: @_colorCode; font-size: @($"{FontSize}rem");">
+        @_text
+    </span>
+    @if (RightIcon != null)
+    {
+        <div style="margin-left: 0.5rem;">
+            @RightIcon
+        </div>
+    }
+</div>
+
+@code {
+
+    private string _colorCode = "inherit";
+
+    [Parameter]
+    public Color Color
+    {
+        get
+        {
+            if (_colorCode == "inherit")
+            {
+                return Color.Black;
+            }  
+            
+            var color = Color.FromArgb(
+                int.Parse(_colorCode.Substring(1, 2), System.Globalization.NumberStyles.HexNumber),
+                int.Parse(_colorCode.Substring(3, 2), System.Globalization.NumberStyles.HexNumber),
+                int.Parse(_colorCode.Substring(5, 2), System.Globalization.NumberStyles.HexNumber)
+            );
+
+            return color;
+        } 
+        set => _colorCode = $"#{value.R:X2}{value.G:X2}{value.B:X2}";
+    }
+
+    private double FontSize => Math.Round((double)Size / 100, 1);
+
+    private RenderFragment? _text;
+    
+    
+    [Parameter] public TextLabelSizes Size { get; set; } = TextLabelSizes.Medium;
+
+    [Parameter]
+    public RenderFragment? Text
+    {
+        get => _text;
+        set => _text = value;
+    }
+    
+    [Parameter]
+    public RenderFragment? ChildContent
+    {
+        get => _text;
+        set => _text = value;
+    }
+    
+    [Parameter] public RenderFragment? LeftIcon { get; set; }
+    [Parameter] public RenderFragment? RightIcon { get; set; }
+}

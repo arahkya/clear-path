@@ -1,0 +1,54 @@
+﻿@using System.Drawing
+@inherits LayoutComponentBase
+
+<div id="page-container">
+    <section id="page-header">
+        <div id="page-header-content">
+            <header>
+                <TextLabel Color="Color.White" Size="TextLabelSizes.Medium">
+                    <RightIcon><i class="fa-solid fa-road"></i></RightIcon>
+                    <Text>Clear Path</Text>
+                </TextLabel>
+            </header>
+        </div>
+    </section>
+    <nav id="page-nav">
+        <div id="page-nav-items">
+            <div>
+                <NavLink href="/home" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+                    <TextLabel Size="TextLabelSizes.Small">
+                        <LeftIcon><i class="fa-solid fa-house"></i></LeftIcon>
+                        <Text>Home</Text>
+                    </TextLabel>
+                </NavLink>
+            </div>
+            <div>
+                <NavLink href="/project" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+                    <TextLabel Size="TextLabelSizes.Small">
+                        <LeftIcon><i class="fa-solid fa-folder-open"></i></LeftIcon>
+                        <Text>Project</Text>
+                    </TextLabel>
+                </NavLink>
+            </div>
+            <div>
+                <NavLink href="/task" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+                    <TextLabel Size="TextLabelSizes.Small">
+                        <LeftIcon><i class="fa-solid fa-list-ol"></i></LeftIcon>
+                        <Text>Tasks</Text>
+                    </TextLabel>
+                </NavLink>
+            </div>
+            <div>
+                <NavLink href="/setting" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
+                    <TextLabel Size="TextLabelSizes.Small">
+                        <LeftIcon><i class="fa-solid fa-gears"></i></LeftIcon>
+                        <Text>Setting</Text>
+                    </TextLabel>
+                </NavLink>
+            </div>
+        </div>
+    </nav>
+    <main id="page-content">
+        @Body
+    </main>
+</div>

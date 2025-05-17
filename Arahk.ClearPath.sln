@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arahk.ClearPath.WebApp", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arahk.ClearPath.WebApp.Client", "Arahk.ClearPath.WebApp\Arahk.ClearPath.WebApp.Client\Arahk.ClearPath.WebApp.Client.csproj", "{DCB64F52-8D1B-43A6-BF00-B4EEEF4C3822}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arahk.ClearPath.Wasm", "Arahk.ClearPath.Wasm\Arahk.ClearPath.Wasm.csproj", "{B0399246-0092-4F0E-BE6A-868470F61BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arahk.ClearPath.Shared", "Arahk.ClearPath.Shared\Arahk.ClearPath.Shared.csproj", "{E108022B-6F0D-4714-814E-A3B6D5C3B5E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{DCB64F52-8D1B-43A6-BF00-B4EEEF4C3822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCB64F52-8D1B-43A6-BF00-B4EEEF4C3822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCB64F52-8D1B-43A6-BF00-B4EEEF4C3822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0399246-0092-4F0E-BE6A-868470F61BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0399246-0092-4F0E-BE6A-868470F61BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0399246-0092-4F0E-BE6A-868470F61BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0399246-0092-4F0E-BE6A-868470F61BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E108022B-6F0D-4714-814E-A3B6D5C3B5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E108022B-6F0D-4714-814E-A3B6D5C3B5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E108022B-6F0D-4714-814E-A3B6D5C3B5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E108022B-6F0D-4714-814E-A3B6D5C3B5E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,56 @@
+@inherits LayoutComponentBase
+@layout MainLayout
+
+<PageTitle>Home</PageTitle>
+
+<div id="page-display">
+    <div id="page-display-header">
+        <div id="page-display-header-content">
+            <header>
+                <TextLabel>
+                    <LeftIcon><i class="fa-solid fa-folder-open"></i></LeftIcon>
+                    <Text>Projects</Text>
+                </TextLabel>
+            </header>
+            <nav>
+                <div>
+                    <NavLink href="/project" style="text-decoration: none; color:inherit;" Match="NavLinkMatch.All">
+                        <TextLabel>
+                            <LeftIcon><i class="fa-solid fa-table-list"></i></LeftIcon>
+                            <Text>List</Text>
+                        </TextLabel>
+                    </NavLink>
+                </div>
+                <div>
+                    <NavLink href="/project/new" style="text-decoration: none; color:inherit;"
+                             Match="NavLinkMatch.All">
+                        <TextLabel>
+                            <LeftIcon><i class="fa-solid fa-square-plus"></i></LeftIcon>
+                            <Text>New</Text>
+                        </TextLabel>
+                    </NavLink>
+                </div>
+                <div>
+                    <TextLabel>
+                        <LeftIcon><i class="fa-solid fa-magnifying-glass"></i></LeftIcon>
+                        <Text>Search</Text>
+                    </TextLabel>
+                </div>
+                <div>
+                    <TextLabel>
+                        <LeftIcon><i class="fa-solid fa-sliders"></i></LeftIcon>
+                        <Text>Configure</Text>
+                    </TextLabel>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="page-display-body">
+        @Body
+    </div>
+</div>
+
+
+@code {
+
+}

@@ -1,0 +1,14 @@
+@ChildContent
+
+@code {
+    [CascadingParameter] private PageDisplay? Parent { get; set; }    
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        
+        Parent?.AddHeader(this);
+    }
+
+}

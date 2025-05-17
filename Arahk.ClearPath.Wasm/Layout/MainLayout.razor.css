@@ -1,0 +1,50 @@
+#page-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+    grid-template-areas: 
+            "page-header page-header" 
+            "page-nav page-content";
+}
+
+#page-header {
+    grid-area: page-header;
+    width: 100%;    
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#page-header-content {
+    padding: .5rem 1rem;
+}
+
+#page-nav {
+    grid-area: page-nav;
+    width: 100%;
+    background-color: lightslategrey;
+    color:white;
+}
+
+#page-nav-items {
+    font-size: small;
+}
+
+#page-nav-items div {
+    padding: 1rem 3rem;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+#page-nav-items div:hover {
+    background-color: lightgray;
+    color: dimgrey;
+}
+
+::deep #page-nav-items div:has(a.active) {
+    background-color: black !important;
+}
+
+#page-content {
+    grid-area: page-content;    
+}
