@@ -1,11 +1,11 @@
 <div class="page-display-body-content">
     @if (HeaderTemplate != null)
     {
-        <div style="margin: 0 0 1rem .5rem">
+        <div>
             @HeaderTemplate.Invoke(_header!)
         </div>
     }
-    <div style="margin: 0 0 1rem .5rem">
+    <div>
         @ChildContent
     </div>
 </div>

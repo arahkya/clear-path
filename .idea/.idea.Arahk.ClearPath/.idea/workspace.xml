@@ -14,81 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f7fd60-b20a-44b2-aca7-ed27b04e580b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Shared/Models/ProjectModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Interfaces/Service/IProjectService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Interfaces/ViewModel/IListItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/HomeLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/HomeLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Project/List.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Services/ProjectService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/ViewModels/Project/ProjectListItemViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arahk.ClearPath/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arahk.ClearPath/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Shared/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/MainLayout.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/MainLayout.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/ProjectLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/ProjectLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/ProjectLayout.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/ProjectLayout.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Home.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Project/New.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Project/New.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Arahk.ClearPath.WebApp.Client.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/DateEntry.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/MultiLineTextEntry.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Components/TextEntry.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/MyNavMenu.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.Client/_Imports.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/App.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Layout/MainLayout.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Layout/MainLayout.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActionButtonItem.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActionLinkItem.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActions.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageActions.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageDisplay.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageDisplay.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageDisplayWidths.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageHeader.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/PageHeader.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Error.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Home.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Pages/Project/NewProject.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/Routes.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Components/_Imports.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Models/Project/NewProjectModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/brands.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/brands.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/fontawesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/fontawesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/regular.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/regular.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/solid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/solid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/svg-with-js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/svg-with-js.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/v4-font-face.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/v4-font-face.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/v4-shims.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/v4-shims.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/v5-font-face.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/css/v5-font-face.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/webfonts/fa-v4compatibility.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.WebApp/Arahk.ClearPath.WebApp/wwwroot/assets/fontawesome/webfonts/fa-v4compatibility.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Arahk.ClearPath.Wasm: http.executor&quot;: &quot;Debug&quot;,
-    &quot;.NET Launch Settings Profile.Arahk.ClearPath.WebApp: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Arahk.ClearPath.WebApp.Client.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;macOS.Arahk.ClearPath.Maui.executor&quot;: &quot;Debug&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Arahk.ClearPath.Wasm: http.executor": "Run",
+    ".NET Launch Settings Profile.Arahk.ClearPath.WebApp: http.executor": "Run",
+    ".NET Project.Arahk.ClearPath.WebApp.Client.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "macOS.Arahk.ClearPath.Maui.executor": "Debug",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Arahk.ClearPath.Wasm: http">
     <configuration name="Arahk.ClearPath.WebApp.Client" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -247,6 +173,7 @@
       <workItem from="1746851543021" duration="8347000" />
       <workItem from="1747408975407" duration="39000" />
       <workItem from="1747409029013" duration="14695000" />
+      <workItem from="1747559751163" duration="954000" />
     </task>
     <task id="LOCAL-00001" summary="Styling Project List Page.">
       <option name="closed" value="true" />
@@ -312,7 +239,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747486829228</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Refactor project layout and navigation; add home and project list pages">
+      <option name="closed" value="true" />
+      <created>1747491704210</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747491704210</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactor project list display; update project service and models">
+      <option name="closed" value="true" />
+      <created>1747495913996</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747495913996</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +282,9 @@
     <MESSAGE value="Create Form Entry Components" />
     <MESSAGE value="Improve Visualize for Form Component and Page Display" />
     <MESSAGE value="Add initial components and layout for project page&#10;&#10;Implemented new Razor components including `PageDisplay`, `TextLabel`, and `PageDisplayHeader` for a modular UI structure. Introduced layouts (`MainLayout` and `ProjectLayout`) and styles to enhance the visual design. Added a &quot;New Project&quot; page with reusable components adhering to the new architecture." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial components and layout for project page&#10;&#10;Implemented new Razor components including `PageDisplay`, `TextLabel`, and `PageDisplayHeader` for a modular UI structure. Introduced layouts (`MainLayout` and `ProjectLayout`) and styles to enhance the visual design. Added a &quot;New Project&quot; page with reusable components adhering to the new architecture." />
+    <MESSAGE value="Refactor project layout and navigation; add home and project list pages" />
+    <MESSAGE value="Refactor project list display; update project service and models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor project list display; update project service and models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

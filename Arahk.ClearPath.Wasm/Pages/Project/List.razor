@@ -1,20 +1,48 @@
 @page "/Project"
+@using Arahk.ClearPath.Wasm.ViewModels.Project
 @layout ProjectLayout
+@inject IProjectService ProjectService
 
 <PageDisplay>
-    <HeaderTemplate>
-        <PageDisplayHeader>
-            <TextLabel Size="TextLabelSizes.Small">
-                <LeftIcon><i class="fa-solid fa-table-list"></i></LeftIcon>
-                <Text>List</Text>
-            </TextLabel>    
-        </PageDisplayHeader>
-    </HeaderTemplate>
     <ChildContent>
-        <TextLabel>
-            <Text>
-                Welcome to your new app.
-            </Text>
-        </TextLabel>
+        <table class="styled-table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Created On</th>
+            </tr>
+            </thead>
+            <tbody>
+            @if (_projects.Any())
+            {
+                foreach (var project in _projects)
+                {
+                    <tr>
+                        <td>@project.Name</td>
+                        <td>@project.CreatedOn.ToString("yyyy-MM-dd")</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="2">No projects found.</td>
+                </tr>
+            }
+            </tbody>
+        </table>
     </ChildContent>
 </PageDisplay>
+
+@code {
+
+    IEnumerable<ProjectListItemViewModel> _projects = new List<ProjectListItemViewModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        
+        _projects = await ProjectService.GetProjectsAsync();
+    }
+
+}

@@ -4,5 +4,5 @@ namespace Arahk.ClearPath.Wasm.Interfaces.Service;
 
 public interface IProjectService
 {
-    Task<List<ProjectListItemViewModel>> GetProjects();
+    Task<List<ProjectListItemViewModel>> GetProjectsAsync();
 }

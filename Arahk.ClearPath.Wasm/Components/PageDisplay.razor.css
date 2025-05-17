@@ -1,6 +1,11 @@
 .page-display-body-content {
-    padding: 1rem;
+    padding: 0;
     background-color: white;
     border-radius: 10px;
-    flex:1;
+    flex: 1 0 calc(100vh - 8rem);
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
+
+.page-display-body-content::-webkit-scrollbar { display: none; }
