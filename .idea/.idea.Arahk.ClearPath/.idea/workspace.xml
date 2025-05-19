@@ -14,7 +14,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f7fd60-b20a-44b2-aca7-ed27b04e580b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Calendar/List.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Calendar/List.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Task/List.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Task/List.razor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arahk.ClearPath/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arahk.ClearPath/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/HomeLayout.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/HomeLayout.razor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/MainLayout.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/MainLayout.razor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/ProjectLayout.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Layout/ProjectLayout.razor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Project/List.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Project/List.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Project/New.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/Pages/Project/New.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Arahk.ClearPath.Wasm/wwwroot/css/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +39,11 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -50,7 +69,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "macOS.Arahk.ClearPath.Maui.executor": "Debug",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -173,7 +192,8 @@
       <workItem from="1746851543021" duration="8347000" />
       <workItem from="1747408975407" duration="39000" />
       <workItem from="1747409029013" duration="14695000" />
-      <workItem from="1747559751163" duration="954000" />
+      <workItem from="1747559751163" duration="1019000" />
+      <workItem from="1747576046940" duration="5006000" />
     </task>
     <task id="LOCAL-00001" summary="Styling Project List Page.">
       <option name="closed" value="true" />
@@ -255,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747495913996</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactor project list display; update project service and models">
+      <option name="closed" value="true" />
+      <created>1747575547508</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747575547508</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

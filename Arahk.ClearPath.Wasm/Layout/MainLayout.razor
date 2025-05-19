@@ -1,59 +1,38 @@
-﻿@using System.Drawing
-@inherits LayoutComponentBase
+﻿@inherits LayoutComponentBase
 
-<div id="page-container">
-    <section id="page-header">
-        <div id="page-header-content">
-            <header>
-                <TextLabel Color="Color.White" Size="TextLabelSizes.Medium">
-                    <RightIcon><i class="fa-solid fa-road"></i></RightIcon>
-                    <Text>Clear Path</Text>
-                </TextLabel>
-            </header>
+<div id="app-container">
+    <section id="app-header">
+        <div id="app-header-content">
+            <div id="app-header-title">
+                Project Management
+            </div>
+            <div>
+                <button id="btn-new-project">
+                    <i class="fas fa-plus"></i>
+                    New Project
+                </button>
+            </div>
+        </div>
+        <div id="app-header-nav">
+            <div>
+                <NavLink href="/" Match="NavLinkMatch.All">Dashboard</NavLink>
+                <div class="indicator"></div>
+            </div>
+            <div>
+                <NavLink href="/Project" Match="NavLinkMatch.All">Project</NavLink>
+                <div class="indicator"></div>
+            </div>
+            <div>
+                <NavLink href="/Task" Match="NavLinkMatch.All">Tasks</NavLink>
+                <div class="indicator"></div>
+            </div>
+            <div>
+                <NavLink href="/Calendar" Match="NavLinkMatch.All">Calendar</NavLink>
+                <div class="indicator"></div>
+            </div>
         </div>
     </section>
-    <nav id="page-nav">
-        <div id="page-nav-items">
-
-            <NavLink href="/" style="text-decoration: none; color: inherit;" match="NavLinkMatch.All">
-                <div>
-                    <TextLabel Size="TextLabelSizes.Small">
-                        <LeftIcon><i class="fa-solid fa-house"></i></LeftIcon>
-                        <Text>Home</Text>
-                    </TextLabel>
-                </div>
-            </NavLink>
-
-            <NavLink href="/Project" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
-                <div>
-                    <TextLabel Size="TextLabelSizes.Small">
-                        <LeftIcon><i class="fa-solid fa-folder-open"></i></LeftIcon>
-                        <Text>Project</Text>
-                    </TextLabel>
-                </div>
-            </NavLink>
-
-
-            <NavLink href="/task" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
-                <div>
-                    <TextLabel Size="TextLabelSizes.Small">
-                        <LeftIcon><i class="fa-solid fa-list-ol"></i></LeftIcon>
-                        <Text>Tasks</Text>
-                    </TextLabel>
-                </div>
-            </NavLink>
-
-            <NavLink href="/setting" style="text-decoration: none; color: inherit;" match="NavLinkMatch.Prefix">
-                <div>
-                    <TextLabel Size="TextLabelSizes.Small">
-                        <LeftIcon><i class="fa-solid fa-gears"></i></LeftIcon>
-                        <Text>Setting</Text>
-                    </TextLabel>
-                </div>
-            </NavLink>
-        </div>
-    </nav>
-    <main id="page-content">
+    <main id="app-body">
         @Body
     </main>
 </div>
